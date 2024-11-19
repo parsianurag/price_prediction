@@ -2,9 +2,10 @@ import streamlit as st
 import pandas as pd
 import pickle
 from datetime import datetime
-
+from joblib import load
 # Load the model
-model = pickle.load(open("flight_rf.pkl", "rb"))
+model = load("flight_rf.joblib")
+
 
 # App title
 st.title("Flight Price Prediction App")
