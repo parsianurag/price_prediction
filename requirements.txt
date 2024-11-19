@@ -1,3 +1,4 @@
+streamlit
 appdirs
 certifi
 click
