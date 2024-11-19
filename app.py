@@ -4,7 +4,7 @@ import pickle
 from datetime import datetime
 from joblib import load
 # Load the model
-model = load("flight_rf.joblib")
+model = load("flight_rf.pkl")
 
 
 # App title
